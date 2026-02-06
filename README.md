@@ -4,8 +4,8 @@ A full-stack real-time chat application built with React, Node.js, and Socket.io
 
 ## 🚀 Live Demo
 
-- **Frontend**: https://chit-chit-chat.netlify.app
-- **Backend API**: https://real-time-communication-with-socket-io-8i10.onrender.com
+- **Frontend (Live site)**: https://chit-chit-chat.netlify.app
+- **Backend API**: Hosted on Render
 
 ## ✨ Features
 

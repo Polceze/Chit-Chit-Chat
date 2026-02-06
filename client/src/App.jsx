@@ -37,8 +37,8 @@ function App() {
       <header className="app-header">
         <h1>Real-Time Chat</h1>
         <div className="connection-status">
-          <span className={`status-indicator ${isConnected ? 'connected' : 'disconnected - Backend is spooling up...'}`}>
-            {isConnected ? '🟢 Connected' : '🔴 Disconnected'}
+          <span className={`status-indicator ${isConnected ? 'connected' : 'disconnected'}`}>
+            {isConnected ? '🟢 Connected' : '🔴 Disconnected - Backend is spooling up...'}
           </span>
           {isLoggedIn && (
             <button onClick={handleLogout} className="logout-btn">
