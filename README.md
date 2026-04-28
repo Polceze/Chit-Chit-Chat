@@ -1,4 +1,5 @@
-# Real-Time Chat Application
+# Chit-Chit-Chat
+> **Real-Time Chat Application**
 
 A full-stack real-time chat application built with React, Node.js, and Socket.io. Features multiple chat rooms, private messaging, typing indicators, and real-time notifications.
 
