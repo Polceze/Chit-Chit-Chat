@@ -77,8 +77,8 @@ real-time-communication-with-socket-io/
 ### Local Development
 1. Clone the repository
 ```bash
-git clone https://github.com/PLP-MERN-Stack-Development/real-time-communication-with-socket-io-Polceze.git
-cd real-time-communication-with-socket-io
+git clone git clone git@github.com:Polceze/Chit-Chit-Chat.git
+cd Chit-Chit-Chat
 ```
 
 2. Setup Backend
@@ -177,7 +177,7 @@ VITE_SOCKET_URL=http://localhost:5000
 2. Connect repository to Render
 3. Set environment variables:
    - `NODE_ENV=production`
-   - `CLIENT_URL=https://chit-chit-chat.netlify.app`
+   - `CLIENT_URL=https://your-front-end url.netlify.app`
 4. Deploy automatically on git push
 
 ### Frontend on Netlify
@@ -186,7 +186,7 @@ VITE_SOCKET_URL=http://localhost:5000
 3. Set build command: `npm run build`
 4. Set publish directory: `dist`
 5. Set environment variable:
-   - `VITE_SOCKET_URL=https://real-time-communication-with-socket-io-8i10.onrender.com`
+   - `VITE_SOCKET_URL=https://your-backend-url.onrender.com`
 
 ## Troubleshooting
 
