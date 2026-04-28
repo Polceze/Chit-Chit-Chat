@@ -1,37 +1,37 @@
-# Real-Time Chat Application 💬
+# Real-Time Chat Application
 
 A full-stack real-time chat application built with React, Node.js, and Socket.io. Features multiple chat rooms, private messaging, typing indicators, and real-time notifications.
 
-## 🚀 Live Demo
+## Live Demo
 
 - **Frontend (Live site)**: https://chit-chit-chat.netlify.app
 - **Backend API**: Hosted on Render
 
-## ✨ Features
+## Features
 
 ### Core Functionality
-- 🔐 **Simple Username Authentication** - Join with any username
-- 🌐 **Multiple Chat Rooms** - General, Random, and Tech rooms
-- 💬 **Real-time Messaging** - Instant message delivery
-- 👥 **Online User List** - See who's currently online
-- ⌨️ **Typing Indicators** - See when others are typing
-- 🕒 **Message Timestamps** - All messages include timestamps
+- **Simple Username Authentication** - Join with any username
+- **Multiple Chat Rooms** - General, Random, and Tech rooms
+- **Real-time Messaging** - Instant message delivery
+- **Online User List** - See who's currently online
+- **Typing Indicators** - See when others are typing
+- **Message Timestamps** - All messages include timestamps
 
 ### Advanced Features
-- 🔒 **Private Messaging** - Send direct messages to other users
-- ❤️ **Message Reactions** - React to messages with emojis
-- 🔔 **Real-time Notifications** - Browser and sound notifications
-- 📱 **Responsive Design** - Works on desktop and mobile
-- 🔄 **Auto-reconnection** - Handles connection drops gracefully
+- **Private Messaging** - Send direct messages to other users
+- **Message Reactions** - React to messages with emojis
+- **Real-time Notifications** - Browser and sound notifications
+- **Responsive Design** - Works on desktop and mobile
+- **Auto-reconnection** - Handles connection drops gracefully
 
 ### User Experience
-- 🎯 **Read Receipts** - Message delivery confirmation
-- 🔊 **Sound Notifications** - Audio alerts for new messages
-- 📱 **Mobile Optimized** - Touch-friendly interface
-- 🎨 **Modern UI** - Clean and intuitive design
-- ⚡ **Performance Optimized** - Efficient real-time communication
+- **Read Receipts** - Message delivery confirmation
+- **Sound Notifications** - Audio alerts for new messages
+- **Mobile Optimized** - Touch-friendly interface
+- **Modern UI** - Clean and intuitive design
+- **Performance Optimized** - Efficient real-time communication
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React** - UI framework
@@ -49,7 +49,7 @@ A full-stack real-time chat application built with React, Node.js, and Socket.io
 - **Netlify** - Frontend hosting
 - **Render** - Backend hosting
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 real-time-communication-with-socket-io/
@@ -68,7 +68,7 @@ real-time-communication-with-socket-io/
 └── README.md              # Project documentation
 ```
 
-## 🚀 Quick Start
+## Quick Start
 ### Prerequisites
 - Node.js (v16 or higher)
 - npm or yarn
@@ -117,7 +117,7 @@ NODE_ENV=development
 VITE_SOCKET_URL=http://localhost:5000
 ```
 
-## 🎯 How to Use
+## How to Use
 
 ### Join the Chat
 - Open the application
@@ -144,7 +144,7 @@ VITE_SOCKET_URL=http://localhost:5000
 - Click to choose an emoji reaction
 - Reactions are visible to all users
 
-## 🔧 API Endpoints
+## API Endpoints
 
 ### Socket.io Events
 
@@ -169,7 +169,7 @@ VITE_SOCKET_URL=http://localhost:5000
 - `GET /api/users` - Get online users
 - `GET /api/rooms` - Get available rooms
 
-## 🚀 Deployment
+## Deployment
 
 ### Backend on Render
 1. Push code to GitHub
@@ -187,7 +187,7 @@ VITE_SOCKET_URL=http://localhost:5000
 5. Set environment variable:
    - `VITE_SOCKET_URL=https://real-time-communication-with-socket-io-8i10.onrender.com`
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -210,21 +210,21 @@ VITE_SOCKET_URL=http://localhost:5000
 ### Debug Mode
 Enable debug mode by checking browser console for Socket.io logs and connection status.
 
-## 🔒 Security Features
+## Security Features
 
 - CORS configuration for controlled access
 - Input validation and sanitization
 - XSS prevention through React's built-in protections
 - Rate limiting consideration for production
 
-## 📈 Performance
+## Performance
 
 - Message pagination for large histories
 - Efficient reconnection handling
 - Optimized Socket.io configuration
 - Minimal data transfer with message batching
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/amazing-feature`
@@ -232,7 +232,7 @@ Enable debug mode by checking browser console for Socket.io logs and connection 
 4. Push to branch: `git push origin feature/amazing-feature`
 5. Open a Pull Request
 
-## 🛣️ Future Enhancements
+## Future Enhancements
 
 - User authentication with JWT
 - Message persistence with database
@@ -245,11 +245,11 @@ Enable debug mode by checking browser console for Socket.io logs and connection 
 - Message editing and deletion
 - Admin features and moderation
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Socket.io](https://socket.io/) for real-time communication library
 - [React](https://reactjs.org/) for the frontend framework
@@ -257,7 +257,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Render](https://render.com/) for backend hosting
 - [Netlify](https://netlify.com/) for frontend hosting
 
-## 📞 Support
+## Support
 
 If you have any questions or run into issues:
 
@@ -268,4 +268,4 @@ If you have any questions or run into issues:
 
 ---
 
-**Happy Chatting!** 🎉
+**Happy Chatting!** 
